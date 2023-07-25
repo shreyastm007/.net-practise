@@ -1,0 +1,92 @@
+﻿types of classes:
+	Instance class
+	static class
+	partial class
+	nested class
+	singleton class
+	abstract class
+	sealed class
+
+
+	instance class: 
+		normal classes where we need object creation in order to execute the class
+
+	Static class:
+		->aclass where we dont need any object creation to execute that class.(->cant use new keyword)
+		->it can access only static items.
+		->we have to use static keyWord.
+		->cant inherit static class from another class.
+		->static class can have only static members.
+		->we can access data members and member functions through the class name.
+
+
+partial class: 
+	->partial keyword is used in order to craetwe a partial class
+	->all the methods and data members can be accessd by creating single instance.
+	->With the help of partial classes, multiple developers can work simultaneously in the same class in different files.
+	->With the help of a partial class concept, you can split the UI of the design code and the business logic code to read and understand the code.
+	->When you were working with automatically generated code, the code can be added to the class without having to recreate the source file like in Visual studio.
+	->You can also maintain your application in an efficient manner by compressing large classes into small ones.
+
+
+
+seeled class
+	-> Sealed class is used to stop a class to be inherited. You cannot derive or extend any class from it.
+	->Sealed method is implemented so that no other class can overthrow it and implement its own method.
+	->The main purpose of the sealed class is to withdraw the inheritance attribute from the user so that they can’t attain a class from a sealed class.
+	->Sealed classes are used best when you have a class with static members. 
+
+
+
+
+
+
+
+	Some of the exceptions that occers
+
+	
+some of the exceptions
+
+
+	
+//1. System.IO.IOException
+
+//Handles I/O errors.
+
+
+//2.System.IndexOutOfRangeException
+
+//Handles errors generated when a method refers to an array index out of range.
+
+
+//3. System.ArrayTypeMismatchException
+
+//Handles errors generated when type is mismatched with the array type.
+
+	
+//4. System.NullReferenceException
+
+//Handles errors generated from referencing a null object.
+
+
+//5.System.DivideByZeroException
+
+//Handles errors generated from dividing a dividend with zero.
+
+
+
+//6.System.InvalidCastException
+
+//Handles errors generated during typecasting.
+
+
+//7.System.OutOfMemoryException
+
+//Handles errors generated from insufficient free memory.
+
+
+//8.System.StackOverflowException
+
+//Handles errors generated from stack overflow.
+
+		
